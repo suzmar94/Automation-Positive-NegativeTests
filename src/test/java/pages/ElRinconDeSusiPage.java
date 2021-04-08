@@ -1,5 +1,6 @@
-package helpers;
+package pages;
 
+import helpers.BaseHelper;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class ElRinconDeSusiPage extends BaseHelper{
+public class ElRinconDeSusiPage extends BaseHelper {
     @FindBy(id = "nav")
     WebElement navigationBar;
     @FindBy(className = "form-group")

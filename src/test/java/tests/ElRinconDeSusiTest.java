@@ -1,11 +1,11 @@
 package tests;
 
-import helpers.ElRinconDeSusiPage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import pages.ElRinconDeSusiPage;
 
 import java.util.List;
 
